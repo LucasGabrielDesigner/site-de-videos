@@ -9,6 +9,25 @@ header {
     color: white;
     text-align: center;
     padding: 1em;
+    width: 100%;
+    top: 0;
+    box-shadow: 1px 5px 10px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+div{
+    background-color:#9f9f9f;
+    padding-top: 15px;
+}
+
+ul{
+    color:white;
+    display: inline-block;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
 }
 
 main {
@@ -24,6 +43,8 @@ main {
 
 .video {
     width: 250px;
+    height:140px;
+    margin-top: 50px;
 }
 
 iframe {
@@ -31,11 +52,11 @@ iframe {
 }
 
 footer {
-    background-color: #333;
+    background-color: #a7a7a7;
     color: white;
     text-align: center;
+    margin-top: 100px;
     padding: 1em;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
